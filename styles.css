@@ -1,0 +1,194 @@
+
+#topbar {
+		background-color: #FFFFFF;
+		border-bottom: 3px solid #848484;
+		width: 100%;
+		height: 100px;
+		color: BDA9A9;
+	}
+	
+	#position {
+		position: 
+		
+	}
+	
+	.fixedwidth {
+		width:1250px;
+		margin: 0 auto;
+		}
+		
+	.fixedwidth2 {
+		width:3000px;
+		margin: 0 auto;
+		}
+		
+		#logodiv {
+		padding-top: 10px;
+		float: left; 
+        padding-right: 10px;
+	}
+		
+		#logodiv p {
+		padding-top: 0px;
+		float: left; 
+        padding-right: 10px;
+		font-size: 2em;
+		font-family: cursive;
+		font-style: normal;
+		
+	}
+	
+
+	#signin {
+		float: right;
+		padding: 32px 80px 0px 20px;
+		font-size: 1.2em;
+	}
+	
+	#topmenudiv {
+		float:right;
+	}
+	
+	#topmenudiv li {
+		list-style:none;
+		font-size: 1.2em;
+		height: 100%;
+		padding: 50px 8px 10px 40px;
+		float: left;
+		
+	}
+	
+	#topmenudiv ul{
+		margin: 0px;
+		padding: 0;
+        float: left;
+	}
+	
+	#searchdiv {
+		float: left;
+		padding: 50px 0 0px 10px;
+		height: 25px;
+		
+	}
+	
+	#searchdiv input {
+		height: 22px;
+		font-size: 1.0em:
+        padding-left: 10px;
+		background-image: url("images/searchlogo.png");
+		background-repeat: no-repeat;
+		background-position: right center;
+		background-color: #E4E4E4;
+		border: none;
+	}
+	
+	.break {
+		clear: both;
+	}
+	
+	 a {
+		color: #1F4F82;
+		text-decoration: none;
+	}
+	
+	 a:hover {
+		color: #E8A41B;
+	} 
+	
+	#introheader {
+		color: #FFFFFF;
+		background-image: url("images/restaurant.png");
+		background-repeat: no-repeat;
+		background-size: 1850px 425px;
+		position: relative;
+		top: -32px;
+		bottom: 10px;
+		height: 425px;
+	}
+	
+		#introheader p {
+		margin: 0;
+		position: relative;
+		top: 150px;
+		left: 430px;
+		bottom: 10px;
+		font-family: ariel;
+		font-size: 3em;
+		font-weight: bold;ss
+	}
+	
+	.welcome {
+		padding-left: 350px;
+		font-size: 4em !important;
+		
+	}
+	
+	body  {
+		background-color: #E6E6E6;
+		margin: 0%;
+		font-family: arial,helvetica,sans-serif;
+	}	
+
+	#headart {
+		position: relative;
+		top: 400px;
+	}
+	
+	.infoblock {
+		float: left;
+		border-bottom: 3px solid #848484;
+		width: 100%;
+		height: 567px;
+		
+		
+	}
+	
+	.infoblock p {
+		width: 750px;
+		font-size: 1.2em;
+		padding-left: 60px;
+	}
+	
+	.leftside {
+		padding: 0;
+		position: relative;
+		left: 750px;
+		
+		
+	}
+	
+	.left {
+		float: left;
+		text-align: center;
+		position: relative;
+		left: 450px;
+	}
+
+	.rightside {
+		text-align: center;
+		padding: 0;
+		position: relative;
+		left: -600px;
+		 
+	}
+	
+	.right {
+		float: left;
+		text-align: center;
+		position: relative;
+		left: 450px;
+		top: 25px !important;
+	}
+	
+	.container2 img {
+		width: 400px;
+		height: 220px;
+		position: relative;
+		top: 200px;
+		right: 500px;
+		padding-right: 15px;
+		
+		
+	}
+	
+
