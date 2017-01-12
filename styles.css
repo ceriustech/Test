@@ -1,4 +1,10 @@
 
+body  {
+		background-color: #FFFFFF;
+		margin: 0% ;
+		font-family: arial,helvetica,sans-serif;
+	}	
+
 #topbar {
 		background-color: #FFFFFF;
 		border-bottom: 3px solid #848484;
@@ -13,19 +19,38 @@
 	}
 	
 	.fixedwidth {
-		width:1250px;
+		width:100%;
 		margin: 0 auto;
-		}
+	}
+	
+	#fixed {
+		position: fixed;
+		width: 100%;
+		height: 100px;
+		left: 0;
+		top: 0;
+		z-index: 100;
+		border-bottom: 3px solid #848484; 
+		background-color: #FFFFFF;
+	}
 		
 	.fixedwidth2 {
-		width:3000px;
+		width:100%;
+		margin: 120px 0 0 0;
+	}
+		
+		
+		.fixedwidth3 {
+		width:100%;
 		margin: 0 auto;
-		}
+	}
+		
 		
 		#logodiv {
 		padding-top: 10px;
 		float: left; 
-        padding-right: 10px;
+		position: relative;
+		left: 200px;
 	}
 		
 		#logodiv p {
@@ -35,7 +60,6 @@
 		font-size: 2em;
 		font-family: cursive;
 		font-style: normal;
-		
 	}
 	
 
@@ -46,6 +70,8 @@
 	}
 	
 	#topmenudiv {
+		margin: 0px;
+		padding: 0;
 		float:right;
 	}
 	
@@ -55,7 +81,6 @@
 		height: 100%;
 		padding: 50px 8px 10px 40px;
 		float: left;
-		
 	}
 	
 	#topmenudiv ul{
@@ -68,7 +93,6 @@
 		float: left;
 		padding: 50px 0 0px 10px;
 		height: 25px;
-		
 	}
 	
 	#searchdiv input {
@@ -79,7 +103,7 @@
 		background-repeat: no-repeat;
 		background-position: right center;
 		background-color: #E4E4E4;
-		border: none;
+		border: 2px solid #848484;;
 	}
 	
 	.break {
@@ -99,18 +123,19 @@
 		color: #FFFFFF;
 		background-image: url("images/restaurant.png");
 		background-repeat: no-repeat;
-		background-size: 1850px 425px;
+		background-size: 100% 425px;
 		position: relative;
-		top: -32px;
+		top: -25px;
 		bottom: 10px;
 		height: 425px;
 	}
 	
-		#introheader p {
+	#introheader p {
 		margin: 0;
 		position: relative;
 		top: 150px;
-		left: 430px;
+		padding-left: 50px;
+		text-align: center;
 		bottom: 10px;
 		font-family: ariel;
 		font-size: 3em;
@@ -120,13 +145,6 @@
 	.welcome {
 		padding-left: 350px;
 		font-size: 4em !important;
-		
-	}
-	
-	body  {
-		background-color: #E6E6E6;
-		margin: 0%;
-		font-family: arial,helvetica,sans-serif;
 	}	
 
 	#headart {
@@ -138,38 +156,38 @@
 		float: left;
 		border-bottom: 3px solid #848484;
 		width: 100%;
-		height: 567px;
-		
-		
+		height: 575px;
 	}
 	
 	.infoblock p {
 		width: 750px;
 		font-size: 1.2em;
-		padding-left: 60px;
+		
+	}
+	
+	#restaurantpic {
+		height: 350px;
 	}
 	
 	.leftside {
-		padding: 0;
+		text-align: center;
 		position: relative;
-		left: 750px;
-		
-		
+		top: -200px;
+		padding: 0;
 	}
 	
 	.left {
 		float: left;
 		text-align: center;
 		position: relative;
-		left: 450px;
+		left: 500px;
+		top: -200px;
+		
 	}
 
 	.rightside {
 		text-align: center;
 		padding: 0;
-		position: relative;
-		left: -600px;
-		 
 	}
 	
 	.right {
@@ -180,15 +198,18 @@
 		top: 25px !important;
 	}
 	
-	.container2 img {
-		width: 400px;
-		height: 220px;
+	
+	#restaurantpic img {
+		width: 340px;
+		height: 300px;
 		position: relative;
-		top: 200px;
-		right: 500px;
-		padding-right: 15px;
+		top: -50px;
+		right: 350px;
+	
+		margin: auto;
 		
-		
+		 
+		padding-right: 10px;
 	}
 	
 
